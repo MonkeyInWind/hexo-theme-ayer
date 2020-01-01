@@ -3,22 +3,22 @@ menu:
   主页: /
   目录: /archives
   标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  关于我: /2019/about
+  # 旅行: /tags/旅行/
+  # 摄影: http://shenyu-vip.lofter.com
+  关于我: /about
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/logo.png
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
-  enable: true
+  enable: false
   path: /images/cover1.jpg  # images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
-# 页面顶部进度条  
+# 页面顶部进度条
 progressBar: ture
 
 # 文章配置
@@ -38,7 +38,7 @@ toc: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '请我喝杯咖啡吧~'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
@@ -47,16 +47,16 @@ alipay: /images/alipay.jpg
 weixin: /images/wechat.jpg
 
 # 是否启用搜索
-search: true
+search: false
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
-rss: /atom.xml
+# rss: /atom.xml
 
 # 评论：1、Valine(推荐)；2、Gitalk
 
 # 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
-leancloud:  
+leancloud:
   enable: true
   app_id: #
   app_key: #
@@ -76,7 +76,7 @@ gitalk:
   admin: # GitHub ID
 
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
-github: 
+github:
   # (关闭请设置为false)
   url: https://github.com/Shen-Yu/hexo-theme-ayer
 
@@ -89,7 +89,7 @@ busuanzi:
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
-  enable: true
+  enable: false
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
@@ -101,7 +101,7 @@ baidu_analytics: ''
 mathjax: false
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2015
+since: 2020-01
 
 #是否显示页脚信息(建议保留，有助于本主题的推广)
 pageFooter: true

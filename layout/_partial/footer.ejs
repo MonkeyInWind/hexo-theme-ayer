@@ -3,7 +3,7 @@
     <ul class="list-inline">
       <li>
         &copy;
-        <% if (theme.since && !isNaN(theme.since) && theme.since < date(new Date(), 'YYYY')) { %><%- theme.since%>-<% } %><%= date(new Date(), 'YYYY') %>
+        <% if (theme.since && !isNaN(theme.since) && theme.since < date(new Date(), 'YYYY-MM')) { %><%- theme.since%>-<% } %><%= date(new Date(), 'YYYY-MM') %>
         <%= config.author || config.title %>
       </li>
       <li>

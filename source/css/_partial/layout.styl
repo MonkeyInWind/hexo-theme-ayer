@@ -42,6 +42,10 @@
   background-color rgba(0,0,0,.8)
   &.on
     left 0
+    & .navbar-toggle
+      opacity 0
+      left gutter-width
+      transform scale(0)
 
 .navbar-toggle
   position absolute
@@ -87,7 +91,7 @@
     padding-left 0
   .local-search
     width wrap-width
-  
+
   .content
     &.on
       transform: none
