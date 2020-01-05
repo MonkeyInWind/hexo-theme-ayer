@@ -2,8 +2,8 @@
 menu:
   主页: /
   目录: /archives
-  分类: /categories
-  关于我: /about
+  分类: /Categories
+  关于我: /About
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
