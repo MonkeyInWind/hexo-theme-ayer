@@ -2,9 +2,7 @@
 menu:
   主页: /
   目录: /archives
-  标签: /tags
-  # 旅行: /tags/旅行/
-  # 摄影: http://shenyu-vip.lofter.com
+  分类: /categories
   关于我: /about
 
 # 网站图标和侧边栏logo
@@ -42,12 +40,12 @@ reward_type: 0
 # 打赏wording
 reward_wording: '请我喝杯咖啡吧~'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
+alipay:
 # 微信二维码图片地址
-weixin: /images/wechat.jpg
+weixin:
 
 # 是否启用搜索
-search: false
+search: true
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
 # rss: /atom.xml
@@ -75,17 +73,17 @@ gitalk:
   owner: # GitHub ID
   admin: # GitHub ID
 
-# GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
+# GitHub
 github:
   # (关闭请设置为false)
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: https://github.com/MonkeyInWind
 
 # fancybox(仅用于相册展示，若需要可配置albums)
 fancybox: true
 
 # 访问量统计(不蒜子)
 busuanzi:
-  enable: true
+  enable: false
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
@@ -93,7 +91,7 @@ cnzz:
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
-google_analytics: ''
+google_analytics: 'UA-155359064-1'
 # 百度统计
 baidu_analytics: ''
 
